@@ -1,1 +1,2 @@
-# angular_6_grdp_cookie_bootstrap_4
+# Crear una Notificación GDPR con Angular 6 + Cookie y Bootstrap 4
+Hace poco salio el Reglamento de Protección de Datos, el cual obliga a todas las plataformas a que notifiquen sobre el uso de datos de los usuarios que usan y visitan una plataforma, esta información aun sigue en debate pero ya es obligatorio que todas las empresas la desplieguen a sus usuarios, vamos a trabajar con la versión de Angular 6 y Bootstrap 4 para la interface.
