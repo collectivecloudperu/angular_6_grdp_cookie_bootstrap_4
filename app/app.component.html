@@ -1,0 +1,156 @@
+<header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Collective Cloud Perú</h4>
+              <p class="text-muted">
+              La Magia en Internet existe. A diferencia de la vida real, en la Internet podemos soñar, viajar, leer, pensar sin costo alguno. Internet nos dio la oportunidad de ser Felices.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Síguenos</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/CollectiveCloudPeru" target="_blank" class="text-white"> Facebook </a></li>
+                <li><a href="https://twitter.com/collectivecperu" target="_blank" class="text-white"> Twitter </a></li>
+                <li><a href="https://plus.google.com/u/2/b/100711245918321061158/+CollectivecloudperuSAC/posts" target="_blank" class="text-white"> Gogle + </a></li>
+                <li><a href="https://github.com/collectivecloudperu/" target="_blank" class="text-white"> Github </a></li>
+                <li><a href="https://www.youtube.com/channel/UCR7OdhrbfbIefFgcEiZI2FA/videos" target="_blank" class="text-white"> Youtube </a></li>
+                <li><a href="https://www.instagram.com/collective.cloud.peru/" target="_blank" class="text-white"> Instagram </a></li>
+                <li><a href="https://www.linkedin.com/company/collectivecloudperú" target="_blank" class="text-white"> Linkedin </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Turismo</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+        <div class="container">
+
+          <div class="col-md-12">
+
+            <div class="row mt-5">
+              <h1>Crear un Aviso GDPR con Angular 6 + Cookie y Bootstrap 4</h1>
+            </div>
+
+            <div class="row">
+              <h3>{{ nombre }}</h3>
+            </div>
+
+            <div class="row">
+                <h4>Ubicación: {{ ubicacion }}</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <div id="street-view"></div>
+
+              <br>
+
+              <div [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'" [appShadowBlur]="'10px'" align="center">
+                Maravilla del Mundo
+              </div>
+
+              <p class="lead text-muted">Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los Andes en Perú, sobre el valle del río Urubamba. Se construyó en el siglo XV y luego fue abandonada, y es famosa por sus sofisticadas paredes de piedra seca que combinan enormes bloques sin el uso de un mortero, los edificios fascinantes que se relacionan con las alineaciones astronómicas y sus vistas panorámicas. El uso exacto que tuvo sigue siendo un misterio.</p>
+
+              <!--
+              <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zm" [scrollwheel]="sw" [zoomControl]="zc" [streetViewControl]="zvc">
+                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+              </agm-map>
+              -->
+
+            </div>
+
+
+            <!--
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/7/76/Assassin_Dagger.gif/revision/latest?cb=20101109224737&path-prefix=es" alt="Assassin Dagger" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/0/0a/Berserker.gif/revision/latest?cb=20101109225323&path-prefix=es" alt="Berserker" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/3/39/Blade_of_Corruption.gif/revision/latest?cb=20101109225456&path-prefix=es" alt="Blade of Corruption" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/6/65/Bloody_Edge.gif/revision/latest?cb=20101109225718&path-prefix=es" alt="Bloody Edge" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/5/55/Demonrage_Sword.gif/revision/latest?cb=20101116225009&path-prefix=es" alt="Demonrage Sword" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/a/a1/Dragon_Slayer.gif/revision/latest?cb=20101120160207&path-prefix=es" alt="Dragon Slayer" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/e/e6/Energy_Blacksteel_Sword.gif/revision/latest?cb=20101120161432&path-prefix=es" alt="Energy Blacksteel Sword" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/a/a7/Fiery_Blacksteel_Sword.gif/revision/latest?cb=20101120161959&path-prefix=es" alt="Fiery Blacksteel Sword" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/0/0e/Icy_Spike_Sword.gif/revision/latest?cb=20101118202549&path-prefix=es" alt="Icy Spike Sword" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/7/76/Assassin_Dagger.gif/revision/latest?cb=20101109224737&path-prefix=es" alt="Nightmare Blade" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/1/1a/Nightmare_Blade.gif/revision/latest?cb=20101109174321&path-prefix=es" alt="The Epiphany" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/8/83/Twiceslicer.gif/revision/latest?cb=20101109185437&path-prefix=es" alt="Twiceslicer" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              <img src="https://vignette.wikia.nocookie.net/tibia/images/5/51/Sais.gif/revision/latest?cb=20101109182120&path-prefix=es" alt="Sais" class="img-thumbnail rounded" [appShadow]="'#ddd'" [appShadowX]="'3px'" [appShadowY]="'3px'"
+              [appShadowBlur]="'10px'">
+
+              -->
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="text-muted">
+      <div class="container" align="center">
+        Desarrollado por <a href="http://collectivecloudperu.com" target="_blank">Collective Cloud Perú</a>
+      </div>
+    </footer>
+
+    <div class="alert alert-warning grdp" role="alert" [hidden]="!visible">
+      <p>
+        <strong>GDPR (General Data Protection Regulation - Reglamento General Protección de Datos)</strong>
+        <br>
+        Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarte publicidad relacionada con tus preferencias mediante el análisis de tus hábitos de navegación.
+        Puede obtener más información en nuestra <a href="">Política de Cookies.</a>
+        Pulse el botón ACEPTAR, para confirmar que ha leído y aceptado la información presentada. Después de aceptar no volveremos a mostrar este mensaje.
+      </p>
+      <button type="button" class="btn btn-success bcgrdp" (click)="onGRDP()">Aceptar</button>
+    </div>
