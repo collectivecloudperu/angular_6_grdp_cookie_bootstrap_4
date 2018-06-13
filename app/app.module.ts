@@ -35,7 +35,7 @@ import { CookieService } from 'ngx-cookie-service';
     CommonModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCVd-6ORykq9xGk7olUxjM18c43E8g7mIg'
+      apiKey: 'TU_API_KEY'
     }),
     BrowserAnimationsModule,
     LayoutModule,
